@@ -28,6 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Text style={styles.Text_3}>Sample text content</Text>
+      <Icon name="bitbucket" />
     </View>
   )
 }
@@ -41,5 +42,16 @@ const styles = StyleSheet.create({
   View_1: {},
   Text_3: { fontSize: 16, color: "#d50707" },
   View_1: {},
-  Text_3: { fontSize: 16, color: "#d50707", fontFamily: "Merriweather-Regular" }
+  Text_3: {
+    fontSize: 16,
+    color: "#d50707",
+    fontFamily: "Merriweather-Regular"
+  },
+  View_1: {},
+  Text_3: {
+    fontSize: 16,
+    color: "#d50707",
+    fontFamily: "Merriweather-Regular"
+  },
+  Icon_5: {}
 })
