@@ -30,7 +30,6 @@ export default class Blank extends React.Component {
       <Text style={styles.Text_3}>
         Select this text to return to blank screen.
       </Text>
-      <Icon name="bitbucket" />
       <Switch
         activeColor="#42ff58"
         inactiveColor="#FF0000"
