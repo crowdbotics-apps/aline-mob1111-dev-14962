@@ -33,7 +33,7 @@ export default class Blank extends React.Component {
       <Icon name="bitbucket" />
       <Switch
         activeColor="#42ff58"
-        inactiveColor="#1a6dcb"
+        inactiveColor="#FF0000"
         style={styles.Switch_7}
         value={this.state.Switch_7}
         onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
@@ -47,22 +47,12 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
-
   Text_3: {
-    fontSize: 16,
-    color: "#d50707",
-    fontFamily: "Merriweather-Regular",
-    textDecorationLine: "overline",
-    lineHeight: 13
-  },
-
-  Icon_5: {},
-  View_1: {},
-  Text_3: {
-    fontSize: 16,
-    color: "#d50707",
-    fontFamily: "Merriweather-Italic",
+    fontSize: 30,
+    color: "#D50700",
     textDecorationLine: "none",
+    fontFamily: "Merriweather-Regular",
+    fontStyle: 'italic',
     textTransform: "lowercase",
     lineHeight: 13
   },
