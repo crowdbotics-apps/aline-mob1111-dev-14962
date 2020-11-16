@@ -23,12 +23,21 @@ export default class Blank extends React.Component {
     }
   }
 
-  state = {}
+  state = { Switch_7: true }
 
   render = () => (
     <View>
-      <Text style={styles.Text_3}>Sample text content</Text>
+      <Text style={styles.Text_3}>
+        Select this text to return to blank screen.
+      </Text>
       <Icon name="bitbucket" />
+      <Switch
+        activeColor="#42ff58"
+        inactiveColor="#1a6dcb"
+        style={styles.Switch_7}
+        value={this.state.Switch_7}
+        onValueChange={nextChecked => this.setState({ Switch_7: nextChecked })}
+      />
     </View>
   )
 }
@@ -38,6 +47,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   Text_3: {
     fontSize: 16,
     color: "#d50707",
@@ -45,5 +55,17 @@ const styles = StyleSheet.create({
     textDecorationLine: "overline",
     lineHeight: 13
   },
-  Icon_5: {}
+
+  Icon_5: {},
+  View_1: {},
+  Text_3: {
+    fontSize: 16,
+    color: "#d50707",
+    fontFamily: "Merriweather-Italic",
+    textDecorationLine: "none",
+    textTransform: "lowercase",
+    lineHeight: 13
+  },
+  Icon_5: {},
+  Switch_7: { alignSelf: "flex-start" }
 })
