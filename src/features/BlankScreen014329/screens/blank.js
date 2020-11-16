@@ -47,11 +47,22 @@ const styles = StyleSheet.create({
     color: "#d50707",
     fontFamily: "Merriweather-Regular"
   },
+
   View_1: {},
   Text_3: {
     fontSize: 16,
     color: "#d50707",
     fontFamily: "Merriweather-Regular"
+  },
+
+  Icon_5: {},
+  View_1: {},
+  Text_3: {
+    fontSize: 16,
+    color: "#d50707",
+    fontFamily: "Merriweather-Regular",
+    textDecorationLine: "overline",
+    lineHeight: 13
   },
   Icon_5: {}
 })
