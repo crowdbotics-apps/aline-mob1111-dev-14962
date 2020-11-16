@@ -38,25 +38,6 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
-
-  View_1: {},
-  Text_3: { fontSize: 16, color: "#d50707" },
-  View_1: {},
-  Text_3: {
-    fontSize: 16,
-    color: "#d50707",
-    fontFamily: "Merriweather-Regular"
-  },
-
-  View_1: {},
-  Text_3: {
-    fontSize: 16,
-    color: "#d50707",
-    fontFamily: "Merriweather-Regular"
-  },
-
-  Icon_5: {},
-  View_1: {},
   Text_3: {
     fontSize: 16,
     color: "#d50707",
