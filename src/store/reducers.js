@@ -58,6 +58,42 @@ export default function apiReducer(state = initialState, action) {
       return Object.assign({}, state, {
         alinemobAPI: [...state.alinemobAPI, action.response]
       })
+    case types.API_V1_PRODUCT_LIST:
+    case types.API_V1_PRODUCT_LIST_SUCCEEDED:
+    case types.API_V1_PRODUCT_LIST_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
+    case types.API_V1_PRODUCT_CREATE:
+    case types.API_V1_PRODUCT_CREATE_SUCCEEDED:
+    case types.API_V1_PRODUCT_CREATE_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
+    case types.API_V1_PRODUCT_READ:
+    case types.API_V1_PRODUCT_READ_SUCCEEDED:
+    case types.API_V1_PRODUCT_READ_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
+    case types.API_V1_PRODUCT_UPDATE:
+    case types.API_V1_PRODUCT_UPDATE_SUCCEEDED:
+    case types.API_V1_PRODUCT_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
+    case types.API_V1_PRODUCT_PARTIAL_UPDATE:
+    case types.API_V1_PRODUCT_PARTIAL_UPDATE_SUCCEEDED:
+    case types.API_V1_PRODUCT_PARTIAL_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
+    case types.API_V1_PRODUCT_DELETE:
+    case types.API_V1_PRODUCT_DELETE_SUCCEEDED:
+    case types.API_V1_PRODUCT_DELETE_FAILED:
+      return Object.assign({}, state, {
+        alinemobAPI: [...state.alinemobAPI, action.response]
+      })
     case types.API_V1_SIGNUP_CREATE:
     case types.API_V1_SIGNUP_CREATE_SUCCEEDED:
     case types.API_V1_SIGNUP_CREATE_FAILED:
